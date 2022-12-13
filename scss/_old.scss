@@ -1,0 +1,43 @@
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    :hover {
+        background-color: black;
+    }
+
+    // // არ მუშაობს კოინტეინერი რატოოოოოოოოოოოოოოოო display flex
+    // რომ გავუწერე უშუალოს კონტეინერს ეგ აღიქვა + ფერი?
+
+  & > div {
+    width: 250px;
+    height: 250px;
+
+}
+
+}
+
+.left-block {
+    background-color: red;
+}
+
+
+.rigt-block {
+    background-color: green;
+}
+
+// hmtl side
+
+<section>
+
+                <div class="container">
+                    
+
+                    <div class="left-block"></div>
+                    <div class="rigt-block"></div>
+
+                </div>
+            </section>

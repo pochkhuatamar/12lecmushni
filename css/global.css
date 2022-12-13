@@ -60,24 +60,31 @@ a {
   box-sizing: border-box;
 }
 
-.container {
+section {
+  background-color: aqua;
+  padding: 50px 0;
+}
+section .container {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
-  background-color: aqua;
 }
-.container :hover {
-  background-color: black;
+section .container h1 {
+  margin-bottom: 20px;
+  font-size: 42px;
+  color: darkblue;
 }
-.container > div {
-  width: 250px;
-  height: 250px;
+section .container .content-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
-
-.left-block {
-  background-color: red;
+section .container .content-wrapper > img {
+  width: 40%;
 }
-
-.rigt-block {
-  background-color: green;
+section .container .content-wrapper > p {
+  width: 50%;
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  color: darkgrey;
 }/*# sourceMappingURL=global.css.map */

@@ -1,28 +1,36 @@
-.container {
-    max-width: 1170px;
-    width: 100%;
-    margin: 0 auto;
+section {
     background-color: aqua;
+    padding: 50px 0;
+    .container {
+        max-width: 1170px;
+        width: 100%;
+        margin: 0 auto;
+        h1 {
+            margin-bottom: 20px;
+            font-size: 42px;
+            color: darkblue;
+        }
+        .content-wrapper {
+          display: flex;
+          justify-content: space-between;
+          
 
-    :hover {
-        background-color: black;
+            & > img {
+                
+                width: 40%;
+            }
+            & > p {
+                width: 50%;
+                font-size: 22px;
+                line-height: 25px;
+                letter-spacing: 1px;
+                color: darkgrey;
+            }
+
+        }
+
+
+
+
     }
-
-    // არ მუშაობს კოინტეინერი რატოოოოოოოოოოოოოოოო?
-
-  & > div {
-    width: 250px;
-    height: 250px;
-
-}
-
-}
-
-.left-block {
-    background-color: red;
-}
-
-
-.rigt-block {
-    background-color: green;
 }
