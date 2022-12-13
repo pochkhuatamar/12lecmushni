@@ -9,11 +9,13 @@ section {
             margin-bottom: 20px;
             font-size: 42px;
             color: $color1;
+            font-family: $main-font ;
         }
         .content-wrapper {
-          display: flex;
-          justify-content: space-between;
-          
+        //   display: flex;
+        //   justify-content: space-between;
+
+          @include flex-props;
 
             & > img {
                 
