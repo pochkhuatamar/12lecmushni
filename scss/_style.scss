@@ -1,3 +1,28 @@
-.test {
-    font-size: 20px;
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: aqua;
+
+    :hover {
+        background-color: black;
+    }
+
+    // არ მუშაობს კოინტეინერი რატოოოოოოოოოოოოოოოო?
+
+  & > div {
+    width: 250px;
+    height: 250px;
+
+}
+
+}
+
+.left-block {
+    background-color: red;
+}
+
+
+.rigt-block {
+    background-color: green;
 }
