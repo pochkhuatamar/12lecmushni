@@ -8,7 +8,7 @@ section {
         h1 {
             margin-bottom: 20px;
             font-size: 42px;
-            color: darkblue;
+            color: $color1;
         }
         .content-wrapper {
           display: flex;
@@ -24,7 +24,7 @@ section {
                 font-size: 22px;
                 line-height: 25px;
                 letter-spacing: 1px;
-                color: darkgrey;
+                color: $color1;
             }
 
         }
